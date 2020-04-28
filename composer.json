@@ -1,20 +1,14 @@
 {
-    "name": "fyk11/aliyun-dm",
-	"description": "aliyun-php-sdk-dm",
-    "license": "Apache-2.0",
-    "homepage": "https://github.com/fyk11/aliyun-dm",
+    "name": "aliyun-dmfyk11/aliyun-dm",
+    "description": "阿里云邮件推送",
     "type": "library",
-    "keywords": ["aliyun-php-sdk-dm"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "fyk",
-            "email": "1043262757@qq.com"
+            "name": "fyk941127",
+            "email": "fyk941127@163.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "whalephp\\tool\\": "src"
-        }
-    }
+    "minimum-stability": "dev",
+    "require": {}
 }
