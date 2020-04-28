@@ -1,8 +1,8 @@
 {
-    "name": "fyk11/aliyunDm",
+    "name": "fyk11/aliyun-dm",
 	"description": "aliyun-php-sdk-dm",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/fyk11/aliyunDm",
+    "homepage": "https://github.com/fyk11/aliyun-dm",
     "type": "library",
     "keywords": ["aliyun-php-sdk-dm"],
     "authors": [
