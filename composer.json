@@ -8,5 +8,14 @@
             "email": "fyk941127@163.com"
         }
     ],
-    "require": {}
+   "license": "MIT",
+   "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "YanlongMa\\Push\\": "src/"
+        }
+    }
 }
