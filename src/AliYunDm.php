@@ -44,13 +44,13 @@ class AliYunDm
 		$request->setHtmlBody($opt['body']);        
 		try {
 			$response = $client->getAcsResponse($request);
-			return $response;
+			return array('err'=>0,'messages'=>"response:".$response);
 		}
 		catch (\ClientException  $e) {
-			 return array('err'=>1,'messages'=>array($e->getErrorCode(),$e->getErrorMessage())); 
+			 return array('err'=>1,'messages'=>"ErrorCode:".$e->getErrorCode()."ErrorMessage:".$e->getErrorMessage());
 		}
 		catch (\ServerException  $e) {
-			 return array('err'=>1,'messages'=>array($e->getErrorCode(),$e->getErrorMessage())); 
+			 return array('err'=>1,'messages'=>"ErrorCode:".$e->getErrorCode()."ErrorMessage:".$e->getErrorMessage());
 		}
 	}
 }
