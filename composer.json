@@ -12,6 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
     	 "fyk11/aliyun-dm": "dev-master"
     },
