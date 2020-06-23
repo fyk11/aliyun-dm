@@ -11,7 +11,9 @@
             "email": "1043262757@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+    	 "fyk11/aliyun-dm": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "whalephp\\tool\\": "src"
