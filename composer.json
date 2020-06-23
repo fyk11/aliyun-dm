@@ -9,6 +9,6 @@
             "email": "fyk941127@163.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "^1.0",
     "require": {}
 }
