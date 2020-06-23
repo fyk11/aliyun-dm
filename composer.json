@@ -1,5 +1,7 @@
 {
     "name": "administrator/aliyun-dm",
+     "type": "library",
+    "description": "阿里云邮件推送",
     "authors": [
         {
             "name": "fyk941127",
