@@ -11,6 +11,7 @@
             "email": "1043262757@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
     	 "fyk11/aliyun-dm": "dev-master"
     },
