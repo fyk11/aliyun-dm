@@ -1,0 +1,10 @@
+{
+    "name": "administrator/aliyun-dm",
+    "authors": [
+        {
+            "name": "fyk941127",
+            "email": "fyk941127@163.com"
+        }
+    ],
+    "require": {}
+}
