@@ -44,7 +44,7 @@ class AliYunDm
 		$request->setHtmlBody($opt['body']);        
 		try {
 			$response = $client->getAcsResponse($request);
-			return array('err'=>0,'messages'=>"response:".$response);
+			return array('err'=>0,'messages'=>'');
 		}
 		catch (\ClientException  $e) {
 			 return array('err'=>1,'messages'=>"ErrorCode:".$e->getErrorCode()."ErrorMessage:".$e->getErrorMessage());
